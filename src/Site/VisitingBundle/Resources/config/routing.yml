@@ -1,3 +1,0 @@
-site_visiting_homepage:
-    path:     /visiting
-    defaults: { _controller: SiteVisitingBundle:Visiting:index }

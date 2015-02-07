@@ -1,4 +1,0 @@
-services:
-#    site_visiting.example:
-#        class: Site\VisitingBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
