@@ -1,0 +1,12 @@
+store_news_homepage:
+    path:     /news
+    defaults: { _controller: StoreNewsBundle:News:index }
+    requirements:
+store_onenews_homepage:
+    path:     /onenews/{slug}
+    defaults: { _controller: StoreNewsBundle:News:article }
+    requirements:
+store_katnews_homepage:
+    path:     /katnews
+    defaults: { _controller: StoreNewsBundle:News:kategoria }
+    requirements:
